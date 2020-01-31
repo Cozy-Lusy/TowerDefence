@@ -16,6 +16,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &835116053962911551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7281106354990626891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1828d1868488048831b2384d154cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1
+  waypoints: []
+  target: {fileID: 0}
+  hpEnemy: {fileID: 7263948433201931931, guid: 463592424ad31c84cbe8729332a1d861, type: 3}
 --- !u!1001 &7282275160581697253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114,7 +130,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1015959161999642, guid: 5bfd32998278cc44ea4a331c04bd5e45,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114795339589024464, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
 --- !u!1 &7281106354990626891 stripped
 GameObject:

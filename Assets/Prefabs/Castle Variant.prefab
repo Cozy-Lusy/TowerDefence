@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5502540675859913386
+--- !u!114 &4892907221701883131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,12 +9,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 9152546318175817368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 303a1b831138cdc40b854eeedfd9730b, type: 3}
+  m_Script: {fileID: 11500000, guid: 60fdc4c308c432a4dbe66ad1d11e2c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hpCastle: 100
   damage: 10
   hpText: {fileID: 2535151974602229853, guid: a984197e4bef8ee42bd9ec37edbcfb52, type: 3}
+--- !u!65 &328297341361159749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9152546318175817368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: -0}
 --- !u!1001 &9152546318175717432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28,15 +41,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
       propertyPath: m_LocalRotation.x

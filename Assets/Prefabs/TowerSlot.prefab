@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2982395295614029529}
   - component: {fileID: 2982395295614029528}
   - component: {fileID: 2982395295614029535}
-  - component: {fileID: 1247712194436186076}
+  - component: {fileID: 2695632779509403926}
   m_Layer: 0
   m_Name: TowerSlot
   m_TagString: Untagged
@@ -93,7 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1247712194436186076
+--- !u!114 &2695632779509403926
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,9 +102,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2982395295614029534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6fa25b2896f4e04e96c242f5ace05b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 0980c570f78171748ba01b8e22bb93ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tower: {fileID: 9030119691733051088, guid: 13e009dcfd098cd4fa49bfdcd7dc3c6b, type: 3}
-  offset: {x: 0, y: 0, z: 0}
   isSlotEmpty: 1
