@@ -106,11 +106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f5845951db7efe4884f727a204493a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyObject: {fileID: 7281106354990626891, guid: 2d3f583c41b36534e82aa261e14801ac,
+  _enemyPrefab: {fileID: 7281106354990626891, guid: 2d3f583c41b36534e82aa261e14801ac,
     type: 3}
-  hpPrefab: {fileID: 7263948433201931931, guid: 463592424ad31c84cbe8729332a1d861,
+  _hpPrefab: {fileID: 7263948433201931931, guid: 463592424ad31c84cbe8729332a1d861,
     type: 3}
-  canvas: {fileID: 4361878835194601579, guid: 94595d68324075043b44ea9549b04ba9, type: 3}
+  _canvas: {fileID: 4361878835194601579, guid: 94595d68324075043b44ea9549b04ba9, type: 3}
   spawnTime: 2
   enemyInterval: 1
   waveSize: 10

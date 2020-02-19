@@ -58,14 +58,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ab1a6b30c3f0e41ab542372bfd6842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootElement: {fileID: 9030119692359229988}
-  gunPivot: {fileID: 9030119692319843537}
-  enemyTarget: {fileID: 0}
-  bulletPrefab: {fileID: 9030119692838363607}
-  curTarget: {fileID: 0}
-  isFindTarget: 0
-  damage: 10
-  shootDelay: 1
+  _shootElement: {fileID: 9030119692359229988}
+  _gunPivot: {fileID: 9030119692319843537}
+  _bulletPrefab: {fileID: 9030119692838363607}
+  IsFindTarget: 0
+  Damage: 10
+  ShootDelay: 1
+  EnemyTarget: {fileID: 0}
+  CurTarget: {fileID: 0}
 --- !u!1 &9030119692037528450
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,8 +408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d36043d003d5af143875fd2ad8abc377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  target: {fileID: 0}
-  explosionBullet: {fileID: 1015959161999642, guid: 5bfd32998278cc44ea4a331c04bd5e45,
+  _explosionBullet: {fileID: 1015959161999642, guid: 5bfd32998278cc44ea4a331c04bd5e45,
     type: 3}
-  tower: {fileID: 0}
+  Speed: 5
+  Target: {fileID: 0}
+  Tower: {fileID: 0}

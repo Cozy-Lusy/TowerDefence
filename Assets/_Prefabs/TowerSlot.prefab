@@ -105,5 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0980c570f78171748ba01b8e22bb93ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 9030119691733051088, guid: 13e009dcfd098cd4fa49bfdcd7dc3c6b, type: 3}
-  isSlotEmpty: 1
+  _towerPrefab: {fileID: 9030119691733051088, guid: 13e009dcfd098cd4fa49bfdcd7dc3c6b,
+    type: 3}
+  IsSlotEmpty: 1
